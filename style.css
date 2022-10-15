@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+    background-image: url(https://source.unsplash.com/random/?city,night);
+}
+
+.card {
+    background: rgb(0, 0, 0);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border: none;
+    height: 1;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgba(169, 169, 169, 0.285);
+}
+
+button:active {
+    background-color: gray;
+}
+
+input {
+    border-style: none;
+    border-radius: 5px;
+    background-color: gray;
+    caret-color: white;
+    outline-style: none;
+    padding: 5px;
+
+}
+
