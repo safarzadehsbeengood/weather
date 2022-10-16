@@ -28,17 +28,22 @@ let weather = {
     },
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
+
     }
 };
+
+const searchField = document.getElementById("search-input");
 
 document
     .querySelector(".search button")
     .addEventListener("click", function () {
         weather.search();
+        searchField.value = '';
 });
 document.querySelector(".search-bar").addEventListener("keyup", function (event) {
     if (event.key == "Enter") {
         weather.search();
+        searchField.value = '';
     }
 });
 
