@@ -6,6 +6,9 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(https://source.unsplash.com/random/?city,night);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card {
